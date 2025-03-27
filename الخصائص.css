@@ -1,0 +1,201 @@
+h1{
+color: black;
+font-size:large:
+font-family: sans-serif;
+text-align: center;
+background-color: rgb(111, 173, 105);
+border-width: 3px;
+border-color: blueviolet;
+direction: rtl;
+font-size: 30px;
+border-style: solid;
+border-color: rgb(12, 54, 8);
+}
+
+h2{
+font-size:medium:
+font-family: sans-serif;
+direction: rtl;
+color: rgb(0, 0, 0);
+text-align: center; 
+
+
+}
+
+p{
+font-size: 60px;
+font-family: sans-serif;
+color: rgb(0, 0, 0);
+text-align: center; 
+direction: rtl;
+}
+
+h3 {
+color: rgb(70, 0, 59);
+ font-size: 20px;
+ direction: rtl;
+ text-align: right;
+ }
+
+input{
+font-size:medium:
+font-family: sans-serif;
+background-color:  rgb(111, 173, 105);
+border: 2px  rgb(12, 54, 8);
+}
+input{
+    font-family: sans-serif;
+    font-size: medium;
+    
+}
+a{
+font-size:medium:
+font-family: sans-serif;
+cursor: pointer;
+}
+
+a:hover{
+    color: rgb(98, 225, 86);
+font-size: 30px;
+float: right;
+display: block;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+
+}
+a:visited{
+    color: black;background-color: rgb(98, 225, 86);
+}
+body {
+    background-color: rgb(175, 236, 177);
+}
+  
+  /* قم بتحديد لون الرابط النشط/الحالي */
+  .navbar a.active {
+    background-color:rgb(38, 135, 29);
+    color: white;
+    text-align: center;
+  
+  }
+  
+  .navbar {
+    background-color:rgb(33, 77, 29);
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* قم بتنسيق الروابط داخل شريط التنقل */
+  .navbar a {
+    float: right;
+    display: block;
+    color: rgb(98, 225, 86);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* قم بتغيير لون الروابط عند التحويم */
+  .navbar a:hover {
+    background-color: rgb(98, 225, 86);
+    color: black;
+  }
+  
+  /* قم بتحديد لون الرابط النشط/الحالي */
+  .navbar a.active {
+    background-color:rgb(38, 135, 29);
+    color: white;
+    text-align: center;
+  
+  }
+  .zoom-buttons {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    }
+div.social{
+  text-align: center;
+  border-radius: 50%;
+
+  }
+  .zoom-buttons {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    
+    }
+button {
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+
+  }
+
+
+  @media screen and (max-width: 400px;){
+    *{
+      width: 100%;
+  }
+  
+  body{
+  
+  width: 100%;
+  }
+  div.photo{
+  width:10px;
+  height:10px;
+  top: 5px;
+      left: 5px;
+      padding: 5px;
+      position: fixed;
+      direction: ltr;
+  
+  }
+  }
+  @media screen and (max-width: 400px;) and (max-width:600px){
+    *{
+      width: 100%;
+  }
+  
+  body{
+  
+  width: 100%;
+  }
+  div.photo{
+    width:10px;
+    height:10px;
+    top: 5px;
+        left: 5px;
+        padding: 5px;
+        position: fixed;
+        direction: ltr;
+    
+    }
+
+  }
+  
+  @media screen and (max-width: 600px;) and (max-width:800px){
+    *{
+      width: 100%;
+  }
+  
+  body{
+  
+  width: 100%;
+  }
+  div.photo{
+    width:10px;
+    height:10px;
+    top: 5px;
+        left: 5px;
+        padding: 5px;
+        position: fixed;
+        direction: ltr;
+    
+    }
+
+  }

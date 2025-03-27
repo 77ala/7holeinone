@@ -1,0 +1,230 @@
+
+  div.content {
+    top: 80px;
+    left: 60px;
+    padding: 10px;
+    width: 300px;
+    direction: rtl;
+    text-align: right;
+    overflow: hidden; /* يمنع المشاكل الناتجة عن `float` */
+
+  }
+  div.photo {
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    float: left;
+
+  }
+  .zoom-buttons {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    }
+  div.gallery
+  {
+   margin-top: 80px;
+   background-color:rgb(25, 100, 28);
+   overflow: scroll;
+   white-space: nowrap;
+   padding: 5px;
+   }
+  div.gallery img {
+   padding: 5px;
+  }
+ 
+      div.photo {
+top: 10px;
+left: 10px;
+padding: 10px;
+position: fixed;
+direction: ltr;
+
+}
+  
+  div.bottom {
+    top: 400px;
+    left: 0;
+    padding: 10px;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    background-color: rgb(111, 173, 105);
+    text-align: center;
+    direction: rtl;
+
+
+  }
+  
+  * {
+    font-family: serif;
+    direction: rtl;}
+    a{
+    font-size:medium:
+    font-family: sans-serif;
+    cursor: pointer;
+    }
+    
+    a:hover{
+    color: rgb(111, 173, 105);
+    font-size: 30px;
+    font-weight: bold;
+    direction: rtl;
+    font-size:medium:
+    font-family: sans-serif;
+    cursor: pointer;
+
+    }
+    a:visited{
+    color: rgb(98, 225, 86);
+    direction: rtl;
+    font-size:medium:
+    font-family: sans-serif;
+    cursor: pointer;
+    }
+    
+
+ 
+   body {
+    background-color: rgb(175, 236, 177);
+   
+      direction: rtl;
+      
+    }
+   
+
+   
+   h1 {
+    color: rgb(0, 0, 0);
+    background-color: rgb(111, 173, 105);
+    font-size:large:
+    text-align: center;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(12, 54, 8);
+    direction: rtl;
+    font-family: sans-serif;
+    text-align: center;
+
+    }
+
+    ul{
+        font-size: 22px;
+
+    }
+   h2 {
+    color: rgb(0, 0, 0);
+    font-size:medium:
+    direction: rtl;
+    text-align: right;
+    font-family: sans-serif;
+    border-style: solid;
+    border-color: rgb(12, 54, 8); 
+    background-color: rgb(86, 128, 82); 
+
+    }
+
+  
+
+
+    h3 {
+      color: rgb(70, 0, 59);
+      font-size: 20px;
+      direction: rtl;
+      
+        text-align: right;
+      }
+
+   p {
+    color: rgb(0, 0, 0);
+   
+    font-size: 20px; /* حجم الخط بالبكسل */
+    text-align: right; 
+    direction: rtl;
+    font-family: sans-serif;
+
+    }
+button:hover {
+    transform: scale(1.2);
+}
+.scroll-container {
+  height: 300px; /* ارتفاع الشريط */
+  overflow: auto; /* تفعيل التمرير */
+}
+/* ضع شريط التنقل في أسفل الصفحة واجعله ثابتًا */
+.navbar {
+  background-color:rgb(33, 77, 29);
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+/* قم بتنسيق الروابط داخل شريط التنقل */
+.navbar a {
+  float: right;
+  display: block;
+  color: rgb(98, 225, 86);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* قم بتغيير لون الروابط عند التحويم */
+.navbar a:hover {
+  background-color: rgb(98, 225, 86);
+  color: black;
+}
+
+/* قم بتحديد لون الرابط النشط/الحالي */
+.navbar a.active {
+  background-color:rgb(38, 135, 29);
+  color: white;
+  text-align: center;
+
+}
+
+
+
+input{
+  font-size:medium:
+  font-family: sans-serif;
+  background-color: rgb(196, 152, 238);
+  border: 2px rgb(196, 152, 238);
+  
+  }
+  
+  
+  
+
+     input{
+  font-family: sans-serif;
+  font-size: medium;
+  
+     }
+ol{
+  margin-right: 50px;
+  direction: rtl;
+  margin-bottom: 1px;
+  font-size: 20px;
+}
+div.social{
+  text-align: center;
+  border-radius: 50%;
+  
+  }
+  .zoom-buttons {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    }
+button {
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+ 
+  }
+  
